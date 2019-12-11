@@ -1,41 +1,44 @@
 <!doctype html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<title>UT Business Lab.</title>
-
-<link href="css/reset.css" rel="stylesheet" type="text/css">
-<link href="css/css.css" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-
+  <meta charset="UTF-8">
+  <title>UT Business Lab.</title>
+  <link href="css/reset.css" rel="stylesheet" type="text/css">
+  <link href="css/css.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css" />
 </head>
 <body>
-<header>
-    <h1>UT Business Lab.</h1>
-</header>
-<div id="branding">
-  <p>Simple Design.</p>
-</div>
-<nav>
-  <ul>
-    <li><a href="#">TEST1</a></li>
-    <li><a href="#">Nav 2</a></li>
-    <li><a href="#">Nav 3</a></li>
-    <li><a href="#">Nav 4</a></li>
-  </ul>
-</nav>
-<section>
-<article>
-	<span class="date">2019/12/3</span>
-	<h2>   test title.</h2>
-  <p>
-   test article.
-  </p>
-  <a href="#" class="btn">&gt; View More...</a>
-</article>
-</section>
-<footer>
-<address>Copyright(C) Mr. Kawamura Takumi Ochinchin ,Allright Reserved.</address>
-</footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
+  <header>
+      <h1>UT Business Lab.</h1>
+  </header>
+
+  <!-- スライダー全体を括るメインコンテナ -->
+  <div class="swiper-container">
+    <!-- 全スライドをまとめるラッパー -->
+    <div class="swiper-wrapper">
+      <!-- 各スライド -->
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      ...
+    </div>
+
+    <!-- ページネーションを表示する場合 -->
+    <div class="swiper-pagination"></div>
+
+    <!-- 前後スライドへのナビゲーションボタン(矢印)を表示する場合 -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <!-- スクロールバーを表示する場合 -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+
+  <script type="text/javascript" src="javascript/swiper_script.js"></script>
+
+  <footer>
+  <address>Copyright(C) Mr. Kawamura Takumi Ochinchin ,Allright Reserved.</address>
+  </footer>
 </body>
 </html>
