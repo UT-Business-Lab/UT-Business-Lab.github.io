@@ -2,9 +2,10 @@
 /* CSS Document */
 
 body{
-font-family: 'Montserrat', sans-serif;
-margin:0;
-color:#313131;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    color:#313131;
 }
 
 img{
@@ -198,7 +199,5 @@ footer address{
 /* swiper設定 */
 .swiper-container {
     width: 100%;
-    height: 100vh;
+    height: 90vh;
 }
-
-
