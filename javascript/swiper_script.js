@@ -10,7 +10,7 @@ var mySwiper = new Swiper ('.swiper-container', {
     // スライダーの自動再生
     // autoplay: true 　のみなら既定値での自動再生
     autoplay: {
-        delay: 700, // スライドが切り替わるまでの表示時間(ミリ秒)
+        delay: 3000, // スライドが切り替わるまでの表示時間(ミリ秒)
         stopOnLast: true, // 最後のスライドまで表示されたら自動再生を中止するか
         disableOnInteraction: true // ユーザーのスワイプ操作を検出したら自動再生を中止するか
     },

@@ -159,13 +159,15 @@
 .swiper-button-prev,
 .swiper-button-next {
     position: absolute;
-    top: 5%;
-    width: 27px;
-    height: 44px;
+    top: 95%;
+    width: 44px;
+    height: 27px;
     margin-top: -22px;
+    margin-left: 100px;
+    margin-right: 100px;
     z-index: 10;
     cursor: pointer;
-    background-size: 27px 44px;
+    background-size: 44px 27px;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -177,7 +179,7 @@
 }
 .swiper-button-prev,
 .swiper-container-rtl .swiper-button-next {
-    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");
+    background-image: url("https://media.istockphoto.com/vectors/linear-down-arrow-icon-from-arrows-outline-collection-thin-line-down-vector-id1130897130");
     left: 10px;
     right: auto;
 }
