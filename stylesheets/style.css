@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    color: gold;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+body .main-logo {
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    margin-top: 30%;
+    font-size: 500%;
+}
+
+body .next-button {
+    text-align: center;
+}
+
+body .next-button input {
+    background-color: black;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+    font-size: 200%;
+    border: none;
+    outline: none;
+}
+
+body .main-menu {
+    display: none;
+    text-align: center;
+}
+
+body .main-menu ul {
+    list-style-type: none;
+    margin-top: 30%;
+}
+
+body .main-menu li {
+    font-size: 300%
+}
